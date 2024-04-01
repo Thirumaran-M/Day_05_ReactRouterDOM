@@ -5,7 +5,7 @@ function Cybersecurity({ Input }) {
     const filteredInput = Input.filter(ele => ele.name === "CS");
 
     return (<>
-        <h1>Cyber Security</h1>
+        <h3>Cyber Security</h3>
         <div className="container-sm">
             <div className="row">
                 {filteredInput.map((ele, index) => (<Card index={index} title={ele.title} image={ele.image} />))}
